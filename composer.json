@@ -1,11 +1,11 @@
 {
-    "name": "macsidigital/laravel-oauth2-client",
+    "name": "atouiahmed/laravel-oauth2-client",
     "description": "Laravel OAuth2 Client",
     "keywords": [
-        "macsidigital",
+        "atouiahmed",
         "laravel-oauth2-client"
     ],
-    "homepage": "https://github.com/macsidigital/laravel-oauth2-client",
+    "homepage": "https://github.com/atouiahmed/laravel-oauth2-client",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -15,23 +15,23 @@
         }
     ],
     "require": {
-        "php": "^7.2|^8.0|^8.1",
+        "php": "^7.2|^8.0|^8.1|^8.2",
         "nesbot/carbon": "^1.26.3 || ^2.0",
-        "illuminate/support": "^7.0|^8.0|^9.0|^10.0",
+        "illuminate/support": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0|^12.0",
         "league/oauth2-client": "^2.0"
     },
     "require-dev": {
-        "orchestra/testbench": "^5.0|^6.0|^7.0",
-        "phpunit/phpunit": "^8.0|^9.0|^10.0"
+        "phpunit/phpunit": "^10.0|^11.0",
+        "orchestra/testbench": "^7.0|^8.0|^9.0|^10.0"
     },
     "autoload": {
         "psr-4": {
-            "MacsiDigital\\OAuth2\\": "src"
+            "atouiahmed\\OAuth2\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "MacsiDigital\\OAuth2\\Tests\\": "tests"
+            "atouiahmed\\OAuth2\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -45,7 +45,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "MacsiDigital\\OAuth2\\Providers\\OAuth2ServiceProvider"
+                "atouiahmed\\OAuth2\\Providers\\OAuth2ServiceProvider"
             ],
             "aliases": {
 

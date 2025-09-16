@@ -1,8 +1,8 @@
 {
-    "name": "atouiahmed/laravel-oauth2-client",
+    "name": "techtrans/laravel-oauth2-client",
     "description": "Laravel OAuth2 Client",
     "keywords": [
-        "atouiahmed",
+        "techtrans",
         "laravel-oauth2-client"
     ],
     "homepage": "https://github.com/atouiahmed/laravel-oauth2-client",
